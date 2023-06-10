@@ -1,10 +1,14 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 
-function QuestionList() {
+function QuestionList({displayQuestions}) {
+  
   return (
     <section>
       <h1>Quiz Questions</h1>
-      <ul>{/* display QuestionItem components here after fetching */}</ul>
+      <ul> 
+        {displayQuestions}
+        {/* display QuestionItem components here after fetching */}
+      </ul>
     </section>
   );
 }
