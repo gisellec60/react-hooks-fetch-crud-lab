@@ -60,12 +60,15 @@ function App() {
 const displayQuestions = questions.map((question) => (
       <div key={question.id}>
         <li> {question.prompt}
-          <button onClick={() => handleDeleteClick(question.id)}>Delete</button>
+          <button onClick={() => handleDeleteClick(question.id)}>Delete Question</button>
+          <label>
+           Correct Answer 
           <select name="correctIndex" onChange={(e) => handleUpdateAnswer(question.id,e)} value={question.correctIndex}>
             {question.answers.map((answer, index) => (
               <option key={index} value={index}>{answer}</option>
             ))}
           </select>
+          </label>
         </li>
        </div> 
   ))
