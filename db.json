@@ -23,7 +23,7 @@
       "correctIndex": "1"
     },
     {
-      "id": 4,
+      "id": 3,
       "prompt": "______ is a tool that transpiles JSX into valid JavaScript.",
       "answers": [
         "React",
@@ -34,37 +34,15 @@
       "correctIndex": "1"
     },
     {
-      "id": 5,
-      "prompt": "What syntax makes it possible to unpack values from arrays, or properties from objects, into distinct variables?",
+      "id": 4,
+      "prompt": "______ is a tool that transpiles JSX into valid JavaScript.",
       "answers": [
-        "spread",
-        "key-value",
-        "coalescing",
-        "destructuring"
+        "React",
+        "Babel",
+        "Webpack",
+        "ES6"
       ],
-      "correctIndex": "0"
-    },
-    {
-      "id": 6,
-      "prompt": "Returning different elements from a component depending on the state of your application is known as _____ rendering.",
-      "answers": [
-        "voodoo",
-        "conditional",
-        "reactive",
-        "controlled"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "prompt": "What Is State",
-      "answers": [
-        "New York",
-        "Alabama",
-        "Jersey",
-        "Georgia"
-      ],
-      "correctIndex": "0",
-      "id": 7
+      "correctIndex": "1"
     }
   ]
 }
